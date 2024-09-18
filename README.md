@@ -139,7 +139,7 @@ Awesome Python Tools is a repository about different Python Tools used in variou
 
 ## LICENSE
 
-This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This repository is licensed under the [MIT License](./LICENSE)
 
 
 
