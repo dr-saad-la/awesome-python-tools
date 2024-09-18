@@ -29,12 +29,38 @@ Awesome Python Tools is a repository about different Python Tools used in variou
 
 ## Programming
 
-### Software Development 
 
+#### Development Tools
 - [PyCharm](https://www.jetbrains.com/pycharm/): Python IDE for Professional Developers.
 - [Visual Studio Code](https://code.visualstudio.com/): Open-source code editor that supports Python with extensions.
-- [Poetry](https://python-poetry.org/): Dependency management and packaging tool for Python.
+- [Sublime Text](https://www.sublimetext.com/): Lightweight text editor with Python support.
+- [Eclipse + PyDev](https://www.eclipse.org/): IDE with the PyDev plugin for Python development.
+- [Thonny](https://thonny.org/): Beginner-friendly Python IDE with a focus on education.
+- [Wing](https://wingware.com/): Python IDE with powerful debugging and testing tools.
+- [Jupyter Notebooks](https://jupyter.org/): Web-based notebook environment for Python, ideal for data science and interactive computing.
 - [PyInstaller](https://www.pyinstaller.org/): Convert Python applications into standalone executables.
+- [Black](https://github.com/psf/black): Python code formatter.
+- [Flake8](https://flake8.pycqa.org/en/latest/): Python linting tool to ensure PEP8 compliance.
+- [Prettier](https://prettier.io/): Code formatter that works with Python (via plugins).
+- [Babel](https://babeljs.io/): JavaScript compiler that can be integrated with Python development.
+- [Tox](https://tox.readthedocs.io/): Tool for automating testing across multiple Python environments.
+- [Pylint](https://pylint.pycqa.org/en/latest/): A Python static code analysis tool that looks for programming errors, helps enforce a coding standard, and more.
+
+#### Environment and Dependency Management
+- [Poetry](https://python-poetry.org/): Dependency management and packaging tool for Python.
+- [Pipenv](https://pipenv.pypa.io/en/latest/): Official Python tool for managing environments and dependencies.
+- [Conda](https://docs.conda.io/): Package, dependency, and environment management for Python and other languages.
+- [Virtualenv](https://virtualenv.pypa.io/en/latest/): Tool to create isolated Python environments.
+- [Pip](https://pip.pypa.io/en/stable/): The Python package installer.
+- [Anaconda](https://www.anaconda.com/): Distribution of Python and R for scientific computing and data science.
+- [PyEnv](https://github.com/pyenv/pyenv): Simple Python version management.
+- [Nox](https://nox.thea.codes/en/stable/): A tool that automates testing in multiple Python environments, similar to Tox but simpler.
+- [Hatch](https://hatch.pypa.io/latest/): Modern project, package, and environment manager for Python.
+- [asdf](https://asdf-vm.com/): Version manager for multiple runtime environments including Python.
+- [Docker](https://www.docker.com/): Containerization platform often used to create isolated development environments for Python applications.
+- [Venv](https://docs.python.org/3/library/venv.html): Built-in Python module to create lightweight, isolated virtual environments.
+- [Pipx](https://pypa.github.io/pipx/): A tool to install and run Python applications in isolated environments.
+- [PyScaffold](https://pyscaffold.org/): Framework for setting up Python projects with best practices.
 
 ### Testing
 
