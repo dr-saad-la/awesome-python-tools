@@ -6,14 +6,15 @@ Awesome Python Tools is a repository about different Python Tools used in variou
 
 ## Table of Content
 
+
 1. [Programming](#programming)
-   1.1. [Software Development](#software-development)
-   1.2. [Testing](#testing)
-   1.3. [Desktop Applications](#desktop-applications)
-   1.4. [Mobile Applications](#mobile-applications)
+   - 1.1. [Software Development](#software-development)
+   - 1.2. [Testing](#testing)
+   - 1.3. [Desktop Applications](#desktop-applications)
+   - 1.4. [Mobile Applications](#mobile-applications)
 2. [Data Science](#data-science)
-   2.1. [Data Manipulations](#data-manipulations)
-   2.2. [Data Visualizations](#data-visualizations)
+   - 2.1. [Data Manipulations](#data-manipulations)
+   - 2.2. [Data Visualizations](#data-visualizations)
 3. [Machine Learning](#machine-learning)
 4. [Deep Learning](#deep-learning)
 5. [Text Analysis](#text-analysis)
