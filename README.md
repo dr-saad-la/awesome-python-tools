@@ -112,12 +112,6 @@ Awesome Python Tools is a repository about different Python Tools used in variou
 - [Koalas](https://koalas.readthedocs.io/): Pandas-like API built on Apache Spark, allowing distributed DataFrame operations while maintaining a familiar syntax.
 - [Mars](https://mars-project.readthedocs.io/en/latest/): Supports large-scale data computation using multi-dimensional arrays and DataFrames in distributed settings.
 
-#### Big Data and Out-of-Core Manipulation
-- [Vaex](https://vaex.io/): Out-of-core DataFrame library enabling fast manipulation of big data that doesn’t fit into memory.
-- [BlazingSQL](https://blazingsql.com/): GPU-accelerated SQL engine for processing large datasets, part of the RAPIDS ecosystem.
-- [DataTables](https://pypi.org/project/py-datatables/): Provides memory-efficient data handling for larger-than-memory datasets.
-- [TensorFlow Data API](https://www.tensorflow.org/api_docs/python/tf/data): Efficiently loads and processes large-scale datasets for machine learning and deep learning workflows.
-
 #### Specialized Data Handling
 - [Xarray](http://xarray.pydata.org/): Best for multi-dimensional labeled arrays, used in scientific computing like climate data analysis.
 - [GeoPandas](https://geopandas.org/): Specialized for geospatial data manipulation, supporting shapefiles, geoJSON, and spatial operations.
@@ -130,13 +124,47 @@ Awesome Python Tools is a repository about different Python Tools used in variou
 
 
 
-### Data Visualizations
+## Data Visualizations
 
-- [Matplotlib](https://matplotlib.org/): 2D plotting library for Python.
-- [Seaborn](https://seaborn.pydata.org/): Statistical data visualization based on Matplotlib.
-- [Plotly](https://plotly.com/python/): Interactive data visualization library.
-- [Bokeh](https://bokeh.org/): Interactive visualization library that targets modern web browsers.
-- [Altair](https://altair-viz.github.io/): Declarative statistical visualization library.
+#### General-Purpose Plotting Libraries
+- [Matplotlib](https://matplotlib.org/): The foundational 2D plotting library in Python, offering a variety of static, animated, and interactive plots. It is highly customizable and can create publication-quality figures.
+- [Seaborn](https://seaborn.pydata.org/): Built on top of Matplotlib, Seaborn simplifies the process of creating complex statistical plots with aesthetically pleasing defaults and themes.
+- [Plotly](https://plotly.com/python/): A powerful library for creating interactive, web-ready plots. It supports a wide range of chart types, including 3D plots, geographic maps, and dashboards.
+- [Bokeh](https://bokeh.org/): Focused on creating interactive visualizations that can be deployed in web browsers. Bokeh is great for real-time streaming data and interactive dashboards.
+- [Altair](https://altair-viz.github.io/): A declarative statistical visualization library that automates chart generation based on data structures. It is designed to work with Pandas dataframes and is highly effective for quick exploratory data analysis.
+- [ggplot](https://github.com/yhat/ggpy): A Python implementation of the popular ggplot2 R package, providing a grammar of graphics-based approach to data visualization.
+
+#### High-Performance & Large-Scale Visualization
+- [Holoviews](https://holoviews.org/): Simplifies the creation of interactive visualizations across different plotting backends (e.g., Matplotlib, Bokeh, Plotly). Ideal for building dashboards and visualizing large datasets.
+- [Datashader](https://datashader.org/): Designed to handle extremely large datasets, Datashader renders even billions of data points interactively by rasterizing data.
+- [Vaex](https://vaex.io/): Primarily known for its data manipulation capabilities, Vaex also provides built-in fast visualization of large datasets, including scatter plots and histograms.
+- [hvPlot](https://hvplot.holoviz.org/): High-level plotting API that simplifies the creation of interactive visualizations for Pandas, Dask, and Xarray data structures, integrating with Holoviews and Bokeh.
+
+#### Web and Interactive Visualizations
+- [Dash](https://dash.plotly.com/): A Python framework for building interactive web applications and dashboards. Built on top of Plotly, Dash is perfect for creating data-driven apps without requiring frontend knowledge.
+- [Streamlit](https://streamlit.io/): A fast and easy way to build and share web applications directly from Python scripts. Streamlit simplifies the process of creating interactive dashboards with just a few lines of code.
+- [PyWebIO](https://pywebio.readthedocs.io/): A framework for creating interactive web applications without needing front-end development skills. It supports plotting libraries like Matplotlib, Plotly, and Bokeh for visualizing data in a browser.
+- [Flask-Dashboard](https://flask-dashboard.readthedocs.io/): A lightweight dashboarding tool for building web-based visualizations on top of Flask.
+
+#### Geographic and Geospatial Visualizations
+- [Folium](https://python-visualization.github.io/folium/): Simplifies the creation of interactive maps using Leaflet.js, allowing visualizations of geospatial data.
+- [Geopandas](https://geopandas.org/): Extends Pandas with support for geospatial data, enabling geographic visualizations and spatial operations.
+- [Cartopy](https://scitools.org.uk/cartopy/docs/latest/): A library for cartographic projections and geospatial visualizations.
+- [Kepler.gl](https://kepler.gl/): A powerful geospatial visualization tool, developed by Uber, for large-scale geographic data visualizations with beautiful, interactive maps.
+
+#### Specialized and Domain-Specific Visualization
+- [NetworkX](https://networkx.github.io/): For visualizing and analyzing complex networks and graphs, NetworkX is widely used in network analysis and social network visualizations.
+- [PyGraphviz](https://pygraphviz.github.io/): A Python interface to Graphviz, used for rendering graph visualizations, particularly useful in network and process flow visualizations.
+- [mplfinance](https://github.com/matplotlib/mplfinance): Specializes in creating financial charts, such as candlestick, line, and volume plots for stock and trading data.
+- [PyMC3](https://docs.pymc.io/plotting.html): Provides visualization tools for probabilistic programming and Bayesian inference.
+
+#### Animation and 3D Visualizations
+- [Manim](https://www.manim.community/): A Python library for creating high-quality mathematical animations and presentations, widely used for educational videos.
+- [Mayavi](https://docs.enthought.com/mayavi/mayavi/): A 3D scientific data visualization tool that works well with NumPy arrays and has advanced rendering capabilities.
+- [PyVista](https://docs.pyvista.org/): Simplifies the visualization of 3D data and meshes, providing an intuitive API for complex geometric and volumetric data.
+- [Vispy](https://vispy.org/): A high-performance interactive 2D/3D data visualization library that leverages the power of OpenGL.
+- [Matplotlib 3D](https://matplotlib.org/stable/gallery/mplot3d/index.html): Built-in 3D plotting capabilities in Matplotlib, ideal for basic 3D visualizations and surface plots.
+
 
 ## Machine Learning
 
