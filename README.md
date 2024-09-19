@@ -530,10 +530,21 @@ The goal of this repository is to provide a centralized resource where developer
 
 ## Quantum Computing
 
-- [Qiskit](https://qiskit.org/): A Python library for quantum computing and IBM Q systems.
-- [Cirq](https://quantumai.google/cirq): Google’s open-source framework for quantum computing.
-- [ProjectQ](https://projectq.ch/): Open-source software framework for quantum computing.
+- [Qiskit](https://qiskit.org/): A Python-based quantum computing framework developed by IBM, designed for creating, simulating, and running quantum algorithms on quantum computers. It provides tools for quantum circuit creation, simulation, and optimization.
 
+- [Cirq](https://quantumai.google/cirq): An open-source Python library developed by Google for designing, simulating, and executing quantum circuits. It is specifically designed for Noisy Intermediate-Scale Quantum (NISQ) algorithms, enabling developers to build and experiment with quantum systems.
+
+- [ProjectQ](https://projectq.ch/): A Python library for quantum computing that allows users to compile and simulate quantum programs and execute them on various quantum devices. It includes a modular architecture for building custom quantum gates and circuits.
+
+- [QuTiP](https://qutip.org/): Quantum Toolbox in Python (QuTiP) is used for simulating the dynamics of quantum systems. It is widely used in quantum optics, many-body physics, and quantum information processing.
+
+- [PennyLane](https://pennylane.ai/): A library focused on quantum machine learning, PennyLane bridges quantum computing and machine learning frameworks, enabling hybrid quantum-classical computations. It integrates well with TensorFlow and PyTorch.
+
+- [Pyquil](https://pyquil-docs.rigetti.com/en/stable/): Developed by Rigetti Computing, PyQuil is a Python library for writing quantum programs, simulating quantum circuits, and running experiments on real quantum hardware through Rigetti’s Forest platform.
+
+- [Strawberry Fields](https://strawberryfields.ai/): A Python library for quantum computing built specifically for continuous-variable (CV) quantum systems, providing tools for photonic quantum computing.
+
+- [D-Wave Ocean SDK](https://docs.ocean.dwavesys.com/en/stable/): A set of Python libraries for programming quantum annealers from D-Wave. It includes tools for defining, solving, and optimizing problems on D-Wave’s quantum computers.
 
 # Contribution Guidelines
 
