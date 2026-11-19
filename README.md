@@ -78,6 +78,7 @@ The goal of this repository is to provide a centralized resource where developer
 - [Babel](https://babeljs.io/): JavaScript compiler that can be integrated with Python development.
 - [Tox](https://tox.readthedocs.io/): Tool for automating testing across multiple Python environments.
 - [Pylint](https://pylint.pycqa.org/en/latest/): A Python static code analysis tool that looks for programming errors, helps enforce a coding standard, and more.
+- [NextJSON](https://nextjson.com/): Free online nested JSON parser, formatter and JSON toolbox.
 
 #### Environment and Dependency Management
 - [Poetry](https://python-poetry.org/): Dependency management and packaging tool for Python.
